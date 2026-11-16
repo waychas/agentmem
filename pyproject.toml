@@ -1,0 +1,15 @@
+[project]
+name = "agentmem"
+version = "0.1.0"
+description = "Persistent, editable memory for AI agents, built with DSPy and Qdrant."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "dspy>=3.0.3",
+    "openai>=1.109.1",
+    "qdrant-client>=1.15.1",
+    "rich>=13.7.1",
+]
+
+[tool.setuptools]
+packages = ["agentmem"]

@@ -1,0 +1,8 @@
+.envrc
+.env
+.venv/
+qdrant_storage/
+__pycache__/
+*.egg-info/
+build/
+dist/
